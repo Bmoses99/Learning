@@ -1,0 +1,49 @@
+/* styles.css*/
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: burlywood;
+}
+
+.flex-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.table {
+    border-collapse: collapse;
+    border: 2px solid black;
+}
+
+.table td {
+    width: 70px;
+    height: 70px;
+    border: 1px solid black;
+}
+
+.table img {
+    width: 100%;
+    height: auto;
+}
+
+table .white {
+    background-color: white
+}
+
+table .black {
+    background-color: skyblue
+}
+
+.selected {
+    background-color: red;
+    border: 2px solid red;
+}
+
+h1 {
+    color: black;
+    text-align: left;
+}
